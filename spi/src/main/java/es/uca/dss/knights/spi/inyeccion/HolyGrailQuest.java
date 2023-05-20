@@ -1,4 +1,4 @@
-package es.uca.dss.knights.spi;
+package es.uca.dss.knights.spi.inyeccion;
 
 public class HolyGrailQuest implements Quest<HolyGrail> {
     public HolyGrailQuest() {

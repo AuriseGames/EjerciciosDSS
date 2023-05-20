@@ -1,4 +1,4 @@
-package es.uca.dss.knights.spi;
+package es.uca.dss.knights.spi.genericidad;
 
 public class KnightOfTheRoundTable<T> implements Knight<T> {
     private String name;

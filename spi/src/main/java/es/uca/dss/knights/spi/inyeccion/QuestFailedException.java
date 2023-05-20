@@ -1,4 +1,4 @@
-package es.uca.dss.knights.spi;
+package es.uca.dss.knights.spi.inyeccion;
 
 public class QuestFailedException extends Throwable {
     public QuestFailedException() {

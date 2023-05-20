@@ -1,4 +1,4 @@
-package es.uca.dss.knights.spi;
+package es.uca.dss.knights.spi.genericidad;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,7 +13,7 @@ class KnightOfTheRoundTableTest {
     @BeforeEach
     void setUp() {
         knight = new KnightOfTheRoundTable<HolyGrail>("Lancelot");
-        Quest<HolyGrail> quest = new HolyGrailQuest();
+        quest = new HolyGrailQuest();
         knight.setQuest(quest);
     }
 

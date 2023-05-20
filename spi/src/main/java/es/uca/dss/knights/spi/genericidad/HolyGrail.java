@@ -1,4 +1,4 @@
-package es.uca.dss.knights.spi;
+package es.uca.dss.knights.spi.genericidad;
 
 public class HolyGrail {
     public HolyGrail() {
