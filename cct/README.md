@@ -1,8 +1,8 @@
-## Ejercicio 1 - Credit Card Test
+# Ejercicio 1 - Credit Card Test
 
 En este ejercicio realizaremos tests unitarios utilizando Junit 4. Para ello se han creado las clases siguientes:
 
-### CreditCard
+## CreditCard
 Clase que representa una tarjeta de crédito. Contiene los atributos:
 
 - private String cardNumber;
@@ -14,7 +14,7 @@ Clase que representa una tarjeta de crédito. Contiene los atributos:
 
 Además, contiene los métodos getter y setter de cada atributo. Por defecto, la tarjeta está desactivada. Recibe como parámetros en el constructor el número de tarjeta, el nombre del titular, la fecha de caducidad, el cvv y el saldo inicial.
 
-### CreditCardService
+## CreditCardService
 Clase que sirve de interfaz para el uso de la clase CreditCard. Contiene los métodos:
 
 - public void activate(CreditCard creditCard);
@@ -26,7 +26,7 @@ Clase que sirve de interfaz para el uso de la clase CreditCard. Contiene los mé
 - public void transfer(CreditCard creditCard, CreditCard creditCard2, double amount);
 - public void deposit(CreditCard creditCard, double amount);
 
-### CreditCardServiceImpl
+## CreditCardServiceImpl
 Clase que implementa la interfaz CreditCardService. Contiene los métodos anteriores, más los siguientes:
 
 - private void checkCreditCardExists(CreditCard creditCard);
@@ -49,7 +49,7 @@ Clase que implementa la interfaz CreditCardService. Contiene los métodos anteri
 
     Realiza la transacción añadiendo a creditCard el valor amount si es positivo, o restando el valor amount si es negativo. Por eso, cuando se quiere retirar dinero, se llama a esta función con un valor negativo.
 
-### CreditCardTest
+## CreditCardTest
 
 Clase que contiene los tests de la clase CreditCardServiceImpl. Contiene los siguientes tests:
 
