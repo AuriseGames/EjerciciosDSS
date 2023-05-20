@@ -1,14 +1,14 @@
-package es.uca.dss.knights.spi.inyeccion;
+package es.uca.dss.knights.spi;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class AppConfig {
+public class Test2Config {
     
     @Bean
-    public KnightOfTheRoundTableTest<HolyGrail> knightOfTheRoundTableTest() {
-        return new KnightOfTheRoundTableTest<HolyGrail>();
+    public KnightOfTheRoundTableTest2<HolyGrail> knightOfTheRoundTableTest2() {
+        return new KnightOfTheRoundTableTest2<HolyGrail>();
     }
 
     @Bean

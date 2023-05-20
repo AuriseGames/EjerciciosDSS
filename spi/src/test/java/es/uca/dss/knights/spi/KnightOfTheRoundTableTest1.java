@@ -1,11 +1,11 @@
-package es.uca.dss.knights.spi.genericidad;
+package es.uca.dss.knights.spi;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class KnightOfTheRoundTableTest {
+class KnightOfTheRoundTableTest1 {
 
     Knight<HolyGrail> knight;
     Quest<HolyGrail> quest;
