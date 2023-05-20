@@ -7,13 +7,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class KnightOfTheRoundTableTest {
 
-    Knight knight;
-    Quest quest;
+    Knight<HolyGrail> knight;
+    Quest<HolyGrail> quest;
 
     @BeforeEach
     void setUp() {
-        knight = new KnightOfTheRoundTable("Lancelot");
-        Quest quest = new HolyGrailQuest();
+        knight = new KnightOfTheRoundTable<HolyGrail>("Lancelot");
+        Quest<HolyGrail> quest = new HolyGrailQuest();
         knight.setQuest(quest);
     }
 
